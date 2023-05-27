@@ -18,9 +18,9 @@ const router = express.Router();
 
   router.post('/cart-delete-item', shopController.postCartDeleteProduct);
 
-//  router.post('/cart-delete-item',shopController.postOrder)
+  router.post('/cart-delete-item',shopController.postOrder)
 
-//  router.get('/orders', shopController.getOrders);
+  router.get('/orders', shopController.getOrders);
 
 // router.get('/checkout', shopController.getCheckout);
 
